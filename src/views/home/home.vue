@@ -1,12 +1,16 @@
 <template>
   <div class="hello">
     <home1 />
+    <home2 />
+    <home3 />
   </div>
 </template>
 
 <script>
 import { Slider, SliderItem } from 'vue-easy-slider';
 import home1 from './home1';
+import home2 from './home2';
+import home3 from './home3';
 
 export default {
   name: 'HelloWorld',
@@ -14,6 +18,8 @@ export default {
     Slider,
     SliderItem,
     home1,
+    home2,
+    home3,
   },
   props: {
     msg: String

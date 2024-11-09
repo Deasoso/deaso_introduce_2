@@ -6,7 +6,7 @@
       <nav class="navbar is-fixed-top headerwidth" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" @click="$router.push('/')">
-            <img class="logoimg" src="http://chairimg.deaso40.com/background/deaso.jpg">
+            <img class="logoimg" src="http://chairimg.deaso40.com/introduce/kafei_touxiang.jpg">
           </a>
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" ref="nav" @click="clicknav">
             <span aria-hidden="true"></span>
@@ -93,7 +93,7 @@ export default {
     clickCall(){
       this.$buefy.dialog.alert({
         title: 'wx二维码',
-        message: '<div><img class="avatar" style="max-width: 200px;margin-left: calc(50% - 100px);" src="http://chairimg.deaso40.com/background/touxiang2.jpg"/></div>',
+        message: '<div><img class="avatar" style="max-width: 200px;margin-left: calc(50% - 100px);" src="http://chairimg.deaso40.com/introduce/kafei_weixin.jpg"/></div>',
         confirmText: '关闭'
       })
     }
@@ -160,7 +160,6 @@ export default {
   height:28px;
   /* padding: 2px; */
   border-radius:50%;
-  filter:invert();
   /* border: 1px solid black; */
 }
 .headerwidth{
